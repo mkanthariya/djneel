@@ -1,0 +1,33 @@
+.header-content{
+    background-color: #631ea6;
+    color: #ffffff;
+    height: 150px;
+    .content{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .consultation-button{
+        border-radius: 20px;
+        font-size: 12px;
+    }
+}
+.info{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+}
+.customer-review{
+    .rating-card{
+        background-color: #a4a1a125;
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+        padding-left: 0.5rem;
+        box-shadow: 10px 10px 8px #888888;
+        margin-bottom: 5rem;
+        .customer-name,.review{
+            font-size: 12px;
+            padding-left: 0.5rem;
+        }
+    }
+}

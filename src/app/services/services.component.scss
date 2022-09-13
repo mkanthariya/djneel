@@ -1,0 +1,78 @@
+// .service-wrapper {
+//     height: 400px;
+//     width: 900px;
+//     border: 1px solid #ccc;
+//     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(19, 18, 18, 1) 100%);
+//     color: rgb(255, 255, 255);
+//     padding: 20px 20px;
+//     border-radius: 10px;
+//     margin-bottom: 3.5rem;
+// }
+
+// .about-header {  
+//     font-size: 12px;
+//     font-weight: 700;
+//     color: white;
+//     top: 25%;
+// }
+
+// .hide-image{
+//     display: none;
+//   }
+
+//   .heading :hover  .hide-image{
+//     display: block;
+//   } 
+      
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+}
+
+
+       
+
+
+
+
+
+
+
+.menu{
+  margin-bottom: 3rem;
+  .private-party:hover ~ .bg {
+    background: #ffca6d;
+    
+  }
+  .b-day-party:hover ~ .bg {
+    background: #6dcaff;
+  }
+  .corpo-event:hover ~ .bg {
+    background: #ff6d6d;
+  }
+  .marriage-function:hover ~ .bg {
+    background: #6dffb9;
+  }
+  .private-party-image, .b-day-image, .corporate-image, .marriage-image, .baby-shower{
+    display: none;
+  }
+  .private-party:hover + .private-party-image{
+    display:block;
+  }
+  .b-day-party:hover + .b-day-image{
+    display:block;
+  }
+  .corpo-event:hover + .corporate-image{
+    display:block;
+  }
+  .marriage-function:hover + .marriage-image{
+    display:block;
+  }
+ 
+}

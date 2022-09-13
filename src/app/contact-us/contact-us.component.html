@@ -1,0 +1,77 @@
+<app-header></app-header>
+<!-- <div class="contact-header justify-content-center align-items-center d-flex  w-100 mt-4">
+    <label for="">FILL UP THE FORM FOR DJ ACADEMY AND COURSE INFORMATION</label>
+</div>
+<div class="d-flex justify-content-center">
+<form class="contact-form d-flex gap-3 flex-column justify-content-center align-items-center mt-3" [formGroup]="contactUsForm">
+    <label for="">Full Name: 
+        <input input id="name" class="form-control" name="name" required="" type="text"  formControlName="FullName" placeholder="Enter your name">
+    </label>
+    <label for="">Email: 
+        <input input id="email" class="form-control" name="email" required="" type="email" formControlName="Email" placeholder="abc@example.com">
+    </label>
+    <label for="">Number: 
+        <input input id="mobile" class="form-control" name="mobile" required="" type="phone" required formControlName="Number" placeholder="Mobile number">
+    </label>
+    <label for="">Message:
+        <input textarea id="message" class="form-control" maxlength="200" name="message" rows="9" placeholder="Enter your message">
+    </label>
+    <div class="d-flex align-flex-row">
+        <form  [formGroup]="contactUsForm" (ngSubmit)="onSubmit()"></form>
+    <button class="submit-button">Submit</button>
+    </div>
+</form>
+
+</div> -->
+<div class="contact-wrapper position-relative w-100">
+    <img class=" contact-image w-100" src="../../assets/images/Disco-1.jpg" alt="">
+</div>
+<section id="contact-section" class="content-width d-flex flex-column justify-content-start position-absolute">
+    <div class="column" id="contact-header-container">
+        <div class="section-subheader-container px-2">
+            <hr>
+            <h5>Say hello 👋</h5>
+        </div>
+        <div>
+            <h1 class="section-header-container ">Contact me</h1>
+        </div>
+    </div>
+    <div id="contact-container">
+        <div id="contact-form-container" class="contact-container">
+            <div id="contact-name-input" class="input-container column">
+                <div class="row">
+                    <label for="contact-name-input-field ">Name :</label>
+               </div>
+                <input id="contact-name-input-field">
+            </div>
+            <div id="contact-email-input" class="input-container column">
+                <div class="row">
+                    <label for="contact-email-input-field">Email :</label>
+                </div>
+                <input id="contact-email-input-field" type="email">
+            </div>
+            <div id="contact-message-input" class="input-container column">
+                <div class="row">
+                    <label for="contact-message-input-field">Message :</label>
+                </div>
+                <textarea id="contact-message-input-field"></textarea>
+            </div>
+                <div class="d-flex align-items-center flex-row gap-3" id="contact-button-container">
+                    <a target="_blank" href="https://www.facebook.com/deejayneel07/">
+                        <img class="social-icon" src="../../assets/images/facebook-grey.png" alt="" height="28" width="28">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/djneel_17/">
+                        <img class="social-icon" src="../../assets/images/instagram-grey.png" alt="" height="28" width="28">
+                    </a>
+                    <a tabindex="-1" href="mailto:kanthariyamayur74@gmail.com">
+                        <img class="social-icon" src="../../assets/images/mail-grey.png" alt="" height="30" width="30">
+                    </a>
+                    <div id="contact-submit-button" class="small-button orange-hover">Submit</div>
+                </div>    
+        </div>
+    </div>
+</section>
+<!-- <div class="contact-image position-absolute">
+    <img src="../../assets/images/Disco-1.jpg"height="300" width="400" alt="">
+</div> -->
+<app-footer></app-footer>
