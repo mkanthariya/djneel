@@ -1,0 +1,39 @@
+.header-meet{
+    color: rgb(88, 11, 11);
+}
+.dj-profile{
+  height: 200px;
+  background-color: rgb(24, 16, 43);
+  margin-bottom: 2rem;
+  .dj-image{
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 100px;
+    outline: 2px solid #a89c9c;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;  
+    .neel-image{
+      border-radius: 50%;
+    }
+  }
+}
+.title{
+  // position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 80px;
+    opacity: 0;
+    color: #fff;
+    
+}   
+
+.description{
+   // background-color: beige;
+    height: 195px;
+    width: 500px;
+    top: 42%;
+    right: 10%;
+}

@@ -1,0 +1,38 @@
+.footer-wrapper{
+    .footer{
+      background-color: #000; 
+      height: 200px;
+      color: #ffffff; 
+    }        
+        .icon{
+          width: 25px;
+          height: 25px;
+          text-decoration: none;
+          font-size: 26px;
+          color: #ffffff;
+          border-radius: 50px;
+          outline: 2px solid #ffffff;
+          transition-property: outline-offset, outline-color, background-color;
+          transition-duration: .25s;  
+        }
+        .icon:hover{
+          outline-offset: 4px;
+        }
+        .icon:hover i{
+          animation:shake .25s;
+        }
+        .icon--instagram:hover{
+          background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, 
+          #fd5949 45%, #d6249f 60%, #285aec 90%);
+          outline-color: #a02d76;
+        }      
+       .icon--facebook:hover{
+        background-color:  #1428db;
+        outline-color: #1428db ;
+      }
+     .icon--whatsapp:hover{
+      background-color:  #236e0d;
+      outline-color: #236e0d ;
+    }
+      
+} 
