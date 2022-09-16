@@ -11,11 +11,11 @@ export class ContactUsComponent{
   contactUsForm = new FormGroup({
     FullName : new FormControl(''),
     Email: new FormControl(''),
-    Number: new FormControl(''),
     Message: new FormControl(''),
 
     });
-    onSubmit(){
+   
+    onClick(){
       console.log(this.contactUsForm.value)
     }
 }
