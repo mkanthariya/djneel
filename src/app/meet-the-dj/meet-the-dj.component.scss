@@ -2,7 +2,7 @@
     color: rgb(88, 11, 11);
 }
 .dj-profile{
-  height: 200px;
+  height: 210px;
   background-color: rgb(24, 16, 43);
   margin-bottom: 2rem;
   .dj-image{
@@ -19,6 +19,14 @@
     }
   }
 }
+.info{
+  top: 380px;
+  border-radius: 13px;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 0cm;
+  left: 22%;
+} 
 .title{
   // position: absolute;
     font-size: 20px;

@@ -6,8 +6,9 @@
 <div class="dj-profile w-100 d-flex mt-3 gap-4 px-3 justify-content-center">
     <div class ="dj-image d-flex position-relative justify-content-center align-items-center mt-3">
             <img class="neel-image position-absolute" src="../../assets/images/dj-neel.jpeg" height="140" width="140" alt="">
-            <i class="ri-dj-line"></i>   
+            <i class="ri-dj-line"></i>         
     </div>
+   
     <div class ="dj-image d-flex position-relative justify-content-center align-items-center mt-3">
         <img class="neel-image position-absolute" src="../../assets/images/dj-neel.jpeg" height="140" width="140" alt="">
         <i class="ri-dj-line"></i>
@@ -21,8 +22,11 @@
     <img class="neel-image position-absolute" src="../../assets/images/dj-neel.jpeg" height="140" width="140" alt="">
     <i class="ri-dj-line"></i>   
 </div>
-<div class="title">DJNEEL</div>
 </div>
+<button (click)="getInfoFromService1()" class="info position-absolute d-flex flex-row">Click Here</button>
+<ul>
+    <li class="list-dj">{{infodj1}}</li>
+</ul>
 <!-- <div class="description position-absolute px-2 mt-3">
     <p>I am heating up the party scene since 5 years. I have a unique mixing skill and with that I developed a very new concept of playing live DJ Dandia/Garba in Navratri Festival. I have a fine hand on playing dj instrument and some live percussion while playing DJ Dandia.</p>
 </div> -->
