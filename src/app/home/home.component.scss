@@ -9,12 +9,19 @@
     .consultation-button{
         border-radius: 20px;
         font-size: 12px;
+        border: 0cm;
     }
 }
 .info{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-
+    grid-template-columns: 362px 362px 362px;
+    .grid-button{
+        border: 0cm;
+        background-color: #0f0063;
+        color: #ffffff;
+        border-radius: 10px;
+        font-size: 15px;
+    }
 }
 .customer-review{
     .rating-card{

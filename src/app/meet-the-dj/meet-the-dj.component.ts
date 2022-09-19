@@ -9,16 +9,16 @@ import { DjDataService } from '../dj-data.service';
 export class MeetTheDjComponent implements OnInit {
   public image = "../../assets/images/dj-neel.jpeg"
   
-  infodj1: string[]=[];
+  neelInfo: string[]=[];
 
-  getInfoFromService1(){
-    this.infodj1=this.dservice.getInfo1();
-  }
+ 
   constructor(private dservice:DjDataService) {}
    
 
   ngOnInit(): void {
     
   }
- 
+  getInfoFromDjDataService(){
+    this.neelInfo=this.dservice.getNeelInfo();
+  }
 }
