@@ -139,7 +139,7 @@ h5 {
     height: 90%;
 }
 // .contact-image:hover{
-//     animation: shake 0.9s;
+//     animation: 0.9s;
 //     animation-iteration-count: infinite;
 //     -webkit-transform: scaleX(-1);
 //      transform: scaleX(-1);
@@ -157,5 +157,10 @@ h5 {
 //     90% { transform: translate(1px, 2px) rotate(0deg); }
 //     100% { transform: translate(1px, -2px) rotate(-1deg); }
 //   }
+@media only screen and (max-width: 820px){
+    #contact-container{
+        width:350px !important;
+    }
+}
 
  
