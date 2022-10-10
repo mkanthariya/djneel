@@ -4,20 +4,15 @@
 .header-content{
     background-color: #a696b6;
     color: #ffffff;
-    height: 150px;
+    height: 200px;
     .content{
         font-weight: 700;
-        font-size: 30px;
-    }
-    .consultation-button{
-        border-radius: 20px;
-        font-size: 12px;
-        border: 0cm;
+        font-size: 60px;
     }
 }
 .info{
     display: grid;
-    grid-template-columns: 362px 362px 362px;
+    grid-template-columns: 633px 633px 633px;
     .grid-button{
         border: 0cm;
         background-color: #0f0063;
@@ -27,20 +22,22 @@
     }
     .service{
         color: #ffffff;
+        font-size: 50px;
     }
 }
 .customer-review{
     color: #ffffff;
+    font-size: 60px;
     .rating-card{
         background-color: #dfb9b925;
-        height: 100px;
-        width: 200px;
+        height: 200px;
+        width: 400px;
         border-radius: 10px;
         padding-left: 0.5rem;
         box-shadow: 6px 6px 4px #363636;
         margin-bottom: 5rem;
         .customer-name,.review{
-            font-size: 12px;
+            font-size: 22px;
             padding-left: 0.5rem;
             color: #ffffff;
         }

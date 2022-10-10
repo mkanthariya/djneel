@@ -35,6 +35,18 @@
   transition: .25s;
 }
 .menu{
+  .private-party{
+    font-size: 4rem;
+  }
+  .b-day-party{
+    font-size: 4rem;
+  }
+  .corpo-event{
+    font-size: 4rem;
+  }
+  .marriage-function{
+    font-size: 4rem;
+  }
   margin-bottom: 3rem;
   .private-party:hover ~ .bg {
     background: #ffca6d;
@@ -53,16 +65,16 @@
     display: none;
   }
   .private-party:hover + .private-party-image{
-    display:block;
+    display:flex;
   }
   .b-day-party:hover + .b-day-image{
-    display:block;
+    display:flex;
   }
   .corpo-event:hover + .corporate-image{
-    display:block;
+    display:flex;
   }
   .marriage-function:hover + .marriage-image{
-    display:block;
+    display:flex;
   }
  
 }
